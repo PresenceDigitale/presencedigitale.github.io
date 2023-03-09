@@ -1,1 +1,18 @@
-{"Test"}
+{
+  "objectType": "CONTACT", // The type of object you are requesting data for, can be CONTACT, DEAL, COMPANY, TICKET, or PRODUCT
+  "objectId": "123456789", // The unique identifier of the object you want to retrieve data for
+  "properties": [ // A list of properties you want to retrieve for the object
+    "firstname",
+    "lastname",
+    "email",
+    "phone",
+    "address",
+    "city",
+    "state",
+    "zip",
+    "country",
+    "website",
+    "company",
+    "jobtitle"
+  ]
+}
