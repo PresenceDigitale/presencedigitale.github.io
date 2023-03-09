@@ -1,1 +1,26 @@
+# This is the configuration file for your GitHub Pages site
+# More information about the options in this file can be found here:
+# https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll
 
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-minimal
+
+# GitHub Pages settings
+remote_theme: PresenceDigitale/presencedigitale.github.io
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Exclude files from being built
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+
+# Jekyll settings
+layout: default
+permalink: /:title/
+paginate: 5
